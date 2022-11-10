@@ -65,7 +65,7 @@ function rotate(){
     document.getElementById(adName[thisAd]).src=adImages[(thisAd+Math.floor(Math.random()*6))%adImages.length];
     addLinks("adBanner");
     addLinks(adName[thisAd]);
-    setTimeout(rotate,3000);
-    
+    setTimeout(rotate,500);
+
 
 }
